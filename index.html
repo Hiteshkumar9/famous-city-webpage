@@ -52,23 +52,72 @@
 
     </main>
     <aside>
-        <!--Links-->
-        <section>
-
+        <!-- Aside Section 1: Links -->
+        <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://en.parisinfo.com/" target="_blank" title="Paris Tourism">Paris Tourism</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Paris" target="_blank"
+                        title="Wikipedia - Paris">Wikipedia</a></li>
+                <li><a href="https://www.france.fr/en" target="_blank" title="France Travel">France Travel</a></li>
+            </ul>
         </section>
-        <!--Table-->
-        <section>
 
+        <!-- Aside Section 2: Facts Table -->
+        <section id="facts">
+            <h2>Paris Facts</h2>
+            <table border="1">
+                <tr>
+                    <th>Fact</th>
+                    <th>Detail</th>
+                </tr>
+                <tr>
+                    <td>Population</td>
+                    <td>2.1 million</td>
+                </tr>
+                <tr>
+                    <td>Timezone</td>
+                    <td>CET (UTC+1)</td>
+                </tr>
+                <tr>
+                    <td>Founded</td>
+                    <td>3rd Century BC</td>
+                </tr>
+            </table>
         </section>
 
-        <!--Form-->
-        <section>
+        <!-- Aside Section 3: Form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required placeholder="Your name"
+                    autofocus>
 
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com">
+
+                <label for="topic" class="form-label">Topic:</label>
+                <select id="topic" name="topic" class="form-control">
+                    <option value="travel">Travel</option>
+                    <option value="food">Food</option>
+                    <option value="history">History</option>
+                </select>
+
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-control"
+                    placeholder="Your message here..."></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
         </section>
+
     </aside>
-    <footer>
 
+    <footer>
+        <p>© Your Name, 2025</p>
     </footer>
+
 </body>
 
 </html>
